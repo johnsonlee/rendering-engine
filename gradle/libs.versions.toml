@@ -1,0 +1,19 @@
+[versions]
+androidTools = "30.4.0"
+booster = "4.15.0"
+layoutlib = "2022.1.1-beta4-f5f9f71"
+slf4j = "1.7.30"
+
+[libraries]
+android-tools-common = { module = "com.android.tools:common", version.ref = "androidTools" }
+android-tools-layoutlib = { module = "com.android.tools.layoutlib:layoutlib-api", version.ref = "androidTools" }
+android-tools-ninepatch = { module = "com.android.tools:ninepatch", version.ref = "androidTools" }
+android-tools-sdkCommon = { module = "com.android.tools:sdk-common", version.ref = "androidTools" }
+booster-build = { module = "com.didiglobal.booster:booster-build", version.ref = "booster" }
+layoutlib-native-jdk11 = { module = "io.johnsonlee.layoutlib:native-jdk11", version.ref = "layoutlib" }
+layoutlib-native-linux = { module = "io.johnsonlee.layoutlib:native-linux", version.ref = "layoutlib" }
+layoutlib-native-macosx = { module = "io.johnsonlee.layoutlib:native-macosx", version.ref = "layoutlib" }
+layoutlib-native-macarm = { module = "io.johnsonlee.layoutlib:native-macarm", version.ref = "layoutlib" }
+layoutlib-native-win = { module = "io.johnsonlee.layoutlib:native-win", version.ref = "layoutlib" }
+kxml2 = { module = "kxml2:kxml2", version = "2.3.0" }
+slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
